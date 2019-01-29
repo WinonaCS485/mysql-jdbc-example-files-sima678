@@ -47,13 +47,11 @@ public class MySQLAccess {
             String studentID = resultSet.getString("StudentID");
             String firstName = resultSet.getString("FirstName");
             String lastName = resultSet.getString("LastName");
-            String departmentID = resultSet.getString("DepartmentID");
-            String advisorID = resultSet.getString("AdvisorID");
+            String age = resultSet.getString("Age");
             System.out.println("StudentID: " + studentID);
             System.out.println("First Name: " + firstName);
             System.out.println("Last Name: " + lastName);
-            System.out.println("DepartmentID: " + departmentID);
-            System.out.println("AdvisorID: " + advisorID);
+            System.out.println("Age: " + age);
         }
     }
 
